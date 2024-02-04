@@ -11,7 +11,7 @@ class trie_node
     public:
         trie_node *childrens[ALPHABETS];
         bool is_valid_word;
-        trie_node()
+        trie_node()//test
         {
             // point all childrens to null
             for (int i = 0; i < ALPHABETS; ++i)
